@@ -1,5 +1,5 @@
 {
-  "name": "PanTest",
+  "name": "FirstReployApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "react": "^0.14.8",
-    "react-native": "^0.24.1",
-    "reploy-cli": "github:reployapp/reploy-cli.git"
+    "react-native": "^0.23.1"
   }
 }

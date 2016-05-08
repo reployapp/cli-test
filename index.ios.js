@@ -1,7 +1,6 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
- * @flow
  */
 
 import React, {
@@ -12,7 +11,7 @@ import React, {
   View
 } from 'react-native';
 
-class PanTest extends Component {
+class FirstReployApp extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('PanTest', () => PanTest);
+AppRegistry.registerComponent('FirstReployApp', () => FirstReployApp);
