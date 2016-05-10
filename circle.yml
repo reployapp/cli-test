@@ -16,7 +16,6 @@ dependencies:
 test:
   pre:
   override:
-    - npm test
     - cd android && ./gradlew assembleRelease
     - reploy push-build -a QXBwbGljYXRpb246NTcyZjg5ZDljYWI4YjAwMzAwYjRmOGI4 -t eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJqZWN0IjoiVlhObGNqbzFOamRrWkRRMllqUmtNek0xTlRFeU1EQmpOamczWWpFIiwiaXNBZG1pbiI6dHJ1ZSwiaWF0IjoxNDYyNzMyNTA5LCJzdWIiOiJWWE5sY2pvMU5qZGtaRFEyWWpSa016TTFOVEV5TURCak5qZzNZakUifQ.I_b1vbeOdk_aEKWIwY1Jcm5_kCy8JJa8FesyNFnORq0 -b android/app/build/outputs/apk/app-release-unsigned.apk -p android
   post:
